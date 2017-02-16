@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Grandmaster Hong’s Tae Kwon Do Center</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href= "homepage.html" class="pull-left visible-md visible-lg">
+              <div id="logo" alt="logo"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a id="nav-brand" href="homepage.html"><h1>Master Hong’s Class Tae Kwon Do Center</h1></a>
+              <div class="collapse navbar-collapse collapsable-nav" id="collapsable-nav">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="homepage.html">
+                      <span class="glyphicon glyphicon-home" aria-hidden="true"></span><br class="hidden-xs"> Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="photo.html">
+                      <span class="glyphicon glyphicon-camera" aria-hidden="true"></span><br class="hidden-xs"> Photos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="video.html">
+                      <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span><br class="hidden-xs"> Videos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="event.html">
+                      <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span><br class="hidden-xs"> Events
+                    </a>
+                  </li>
+                  <li>
+                    <a href="program.html">
+                      <span class="glyphicon glyphicon-grain" aria-hidden="true"></span><br class="hidden-xs"> Programs
+                    </a>
+                  </li>
+                  <li>
+                    <a href="about.html">
+                      <span class="glyphicon glyphicon-tags" aria-hidden="true"></span><br class="hidden-xs"> About Us
+                    </a>
+                  </li>
+                  <li id="phone" class="hidden-xs">
+                    <a href="Tel: (401)-885-4900">
+                      <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><br class="hidden-xs"><div>Tel: (401)-885-4900</div>
+                    </a>
+                  </li>
+                  <li id="user" class="hidden-xs">
+                    <a href="tel:000-000-0000">
+                      <span class="glyphicon glyphicon-user" aria-hidden="true"></span><br class="hidden-xs"><button class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'">Login</button>
+                    </a>
+                  </li>
+                </div>
+
+                <!-- Button to open the modal login form -->
+
+
+                <!-- The Modal -->
+              <div id="id01" class="modal">
+                <span class="close" title="Close Modal">&times;</span>
+
+                <!-- Modal Content -->
+                <form class="modal-content animate" action="action_page.php">
+                  <div class="imgcontainer">
+                    <img src="../images/logo.jpg" alt="Avatar" class="avatar">
+                  </div>
+
+                  <div class="container">
+                    <label><b>Username: </b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+              <br>
+                    <label><b>Password: </b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+              <br>
+                  <div class="container" style="background-color:#008b8b width:100%">
+                    <button class="btn btn-primary" type="submit">Login</button>
+                  </div>
+              <br>
+                    <input type="checkbox" checked="checked"> Remember me
+                  </div>
+
+                  <div class="container" style="background-color:#008b8b width:60%">
+                    <button class="btn btn-primary" type="button" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <button id="navbartoggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+
+         </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="content_left" class="grid_8">
+        <h1 style="color: black">Family Self Defense &amp; Fitness</h1>
+        <p><span class="family" style="font-size: 32px; color: #ffc000;"><strong>Family Martial Arts</strong></span></p>
+        <p><span class="family" style="font-size: 18px;"><strong>Can I take classes with my child?</strong></span></p>
+        <p style="color: #ADD8E6">Yes. In fact, many families are finding Tae Kwon Do to be the perfect family activity, combining an exciting workout with a new learning experience. You have your choice of attending children's and adults' classes individually or coming together to our Family Class. Either way you'll have a great time and create a special family bond.</p>
+        <p><span class="family" style="font-size: 18px;"><strong>Taekwondo will give you:</strong></span></p>
+        <p> <span class="family" style="text-decoration: underline;">A way to bring your family closer together</span></p>
+        <p><span class="family" style="text-decoration: underline;"> A rewarding activity your whole family will enjoy</span></p>
+        <p><span class="family" style="text-decoration: underline;"> A way to find exercise time for both you and your children</span></p>
+        <p><span class="family" style="text-decoration: underline;"> A positive environment surrounded by motivated goal-setters</span></p>
+        <p style="color: #ADD8E6">It is unlikely that your child can attend a health club with you. And you would probably feel a little out of place if you joined in with your son or daughter's soccer team. Yet at Taekwondo, every family member can train together side by side, providing you with shared goals, quality family time, and an opportunity to meet a great group of friendly people. Of course, you'll also have a lot of fun as you improve your fitness, gain self-defense skills and learn the exciting martial art of Taekwondo. You can be confident that you and your family will be developing relationships with sincere, motivated, healthy families.</p>
+        <p><span class="family" style="font-size: 18px;"><strong>Family fitness.</strong></span></p>
+        <p style="color: #ADD8E6">As a parent, you can set an invaluable example for your child about the importance of regular exercise. Taekwondo combines the best of several forms of physical training. Stretching and calisthenics will improve your flexibility and balance. Kicking drills and partner work will improve your endurance and timing, and the different forms and curriculum requirements will improve your strength and muscle tone. Taekwondo is a great chance to gain respect for each family member's abilities and an opportunity to learn from one another. Best of all, no two classes are alike. You and your children will appreciate the varied, high-energy workouts and be motivated to attend lessons often.</p>
+        <p><span class="family" style="font-size: 18px;"><strong>Spend quality time with your family.</strong></span></p>
+        <p style="color: #ADD8E6">The pursuit of Black Belt excellence is a worthwhile goal that will bring your family closer together. You will assist, coach and cheer one another on as you progress through the different requirements. You will also share the pride of seeing each family member advance and move on to a new belt. Many parents also appreciate the fact that Taekwondo is based on the principles of courtesy, respect, and cooperation. As a result of Taekwondo, children are more well-mannered and behave better at home. They also tend to get along with their siblings and treat household chores more responsibly.</p>
+        <p><span class="family" style="font-size: 18px;"><strong>Be among positive people and good role models.</strong></span></p>
+        <p style="color: #ADD8E6">As a parent, you are always aware of the places your child goes and the people that surround them. At Grand Master Hong's World Class Taekwondo Center, you can be confident that you and your family will be developing relationships with sincere, motivated, and healthy families. In addition to our regular classes, we also offer a full calendar of events designed to improve your martial arts experience and foster friendships among students and families. By providing a place to exercise, socialize, and network, Taekwondo can be a valuable resource to you and your family.</p>
+        <p><span class="family" style="font-size: 18px;"><strong>Enjoy our special events and activities.</strong></span></p>
+        <p><span class="family" style="text-decoration: underline;"> Annual Awards Banquet</span></p>
+        <p><span class="family" style="text-decoration: underline;"> Summer Picnic</span></p>
+        <p><span class="family" style="text-decoration: underline;"> World Class Championships</span></p>
+        <p><span class="family" style="text-decoration: underline;"> Board Break-A-Thon for charity</span></p>
+        <p><span class="family" style="font-size: 18px;"><strong>How safe is it to learn?</strong></span></p>
+        <p style="color: #ADD8E6">Tae Kwon Do is safe and fun for students of all ages and physical abilities. Classes are taught by expert instructors as students are shown techniques in a step-by-step manner at their own pace. A thorough stretching routine, matted flooring, and protective safety equipment are all part of our commitment to ensuring student safety.</p>
+        <p><span class="family"  style="font-size: 18px;"><strong>Our instructors make the difference.</strong></span></p>
+        <p style="color: #ADD8E6">Our talented group of expert instructors will take the time to teach your family in a step-by-step fashion, guiding you with patience and enthusiasm. Our staff is always receptive to your questions and they will serve as success coaches on your way to Black Belt excellence.</p>
+        <p style="text-align: center;"><span class="family" style="font-size: 18px;"><strong>How Will I Benefit from Martial Arts</strong></span></p>
+        <p style="text-align: center;"><span class="family" style="text-decoration: underline;">Relaxation</span></p>
+        <p style="text-align: center;"><span class="family" style="text-decoration: underline;">Balance</span></p>
+        <p style="text-align: center;"><span class="family" style="text-decoration: underline;">Focus</span></p>
+        <p style="text-align: center;"><span class="family" style="text-decoration: underline;">Speed</span></p>
+        <p style="text-align: center;"><span class="family" style="text-decoration: underline;">Self-defense</span></p>
+        <p style="text-align: center;"><span class="family" style="text-decoration: underline;">Flexibility</span></p>
+        <p style="text-align: center;"><span class="family" style="text-decoration: underline;">Strength</span></p>
+        <p style="text-align: center;"><span class="family" style="text-decoration: underline;">Stamina</span></p>
+        </div>
+
+
+    </body>
+
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="address" class="col-sm-4">
+            <span><b>Grand Master Hong's Taekwondo Center</span><br>
+            5955 Post Road<br>
+            North Kingstown<br>
+            RI 02852</b>
+            <hr class="visible-xs">
+          </section>
+          <section class="col-sm-4">
+            <p><b>Current time is: </b></p>
+            <iframe src="http://free.timeanddate.com/clock/i5hcaqtq/n43/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+          </section>
+          <section id="footer_right" class="col-sm-4">
+              <h3><b>Follow us </b></h3>
+                <a href="https://www.facebook.com/GrandmasterHongsTaekwondo/">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/fb.png">
+                </a>
+                <a href="https://twitter.com/ritkd">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/twitter.png">
+                </a>
+                <a href="https://www.youtube.com/user/hongstkd">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/youtube.png">
+                </a>
+          </section>
+        </div>
+      </div>
+    </footer>
+
+
+</body>
+
+</html>

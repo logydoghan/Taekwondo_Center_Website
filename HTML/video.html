@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Grandmaster Hong’s Tae Kwon Do Center</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href= "homepage.html" class="pull-left visible-md visible-lg">
+              <div id="logo" alt="logo"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a id="nav-brand" href="homepage.html"><h1>Master Hong’s Class Tae Kwon Do Center</h1></a>
+              <div class="collapse navbar-collapse collapsable-nav" id="collapsable-nav">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="homepage.html">
+                      <span class="glyphicon glyphicon-home" aria-hidden="true"></span><br class="hidden-xs"> Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="photo.html">
+                      <span class="glyphicon glyphicon-camera" aria-hidden="true"></span><br class="hidden-xs"> Photos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="video.html">
+                      <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span><br class="hidden-xs"> Videos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="event.html">
+                      <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span><br class="hidden-xs"> Events
+                    </a>
+                  </li>
+                  <li>
+                    <a href="program.html">
+                      <span class="glyphicon glyphicon-grain" aria-hidden="true"></span><br class="hidden-xs"> Programs
+                    </a>
+                  </li>
+                  <li>
+                    <a href="about.html">
+                      <span class="glyphicon glyphicon-tags" aria-hidden="true"></span><br class="hidden-xs"> About Us
+                    </a>
+                  </li>
+                  <li id="phone" class="hidden-xs">
+                    <a href="Tel: (401)-885-4900">
+                      <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><br class="hidden-xs"><div>Tel: (401)-885-4900</div>
+                    </a>
+                  </li>
+                  <li id="user" class="hidden-xs">
+                    <a href="tel:000-000-0000">
+                      <span class="glyphicon glyphicon-user" aria-hidden="true"></span><br class="hidden-xs"><button class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'">Login</button>
+                    </a>
+                  </li>
+                </div>
+
+                <!-- Button to open the modal login form -->
+
+
+                <!-- The Modal -->
+              <div id="id01" class="modal">
+                <span class="close" title="Close Modal">&times;</span>
+
+                <!-- Modal Content -->
+                <form class="modal-content animate" action="action_page.php">
+                  <div class="imgcontainer">
+                    <img src="../images/logo.jpg" alt="Avatar" class="avatar">
+                  </div>
+
+                  <div class="container">
+                    <label><b>Username: </b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+              <br>
+                    <label><b>Password: </b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+              <br>
+                  <div class="container" style="background-color:#008b8b width:100%">
+                    <button class="btn btn-primary" type="submit">Login</button>
+                  </div>
+              <br>
+                    <input type="checkbox" checked="checked"> Remember me
+                  </div>
+
+                  <div class="container" style="background-color:#008b8b width:60%">
+                    <button class="btn btn-primary" type="button" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <button id="navbartoggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+
+         </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="video-wrapper">
+        <span id="phototext">Check out our video</span>
+    	<div class="video-container">
+
+  <iframe position="center" width="560" height="315" src="https://www.youtube.com/embed/7sDzmr618xI" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="address" class="col-sm-4">
+            <span><b>Grand Master Hong's Taekwondo Center</span><br>
+            5955 Post Road<br>
+            North Kingstown<br>
+            RI 02852</b>
+            <hr class="visible-xs">
+          </section>
+          <section class="col-sm-4">
+            <p><b>Current time is: </b></p>
+            <iframe src="http://free.timeanddate.com/clock/i5hcaqtq/n43/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+          </section>
+          <section id="footer_right" class="col-sm-4">
+              <h3><b>Follow us </b></h3>
+                <a href="https://www.facebook.com/GrandmasterHongsTaekwondo/">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/fb.png">
+                </a>
+                <a href="https://twitter.com/ritkd">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/twitter.png">
+                </a>
+                <a href="https://www.youtube.com/user/hongstkd">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/youtube.png">
+                </a>
+          </section>
+        </div>
+      </div>
+    </footer>
+
+
+</body>
+
+</html>

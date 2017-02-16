@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Grandmaster Hong’s Tae Kwon Do Center</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href= "homepage.html" class="pull-left visible-md visible-lg">
+              <div id="logo" alt="logo"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a id="nav-brand" href="homepage.html"><h1>Master Hong’s Class Tae Kwon Do Center</h1></a>
+              <div class="collapse navbar-collapse collapsable-nav" id="collapsable-nav">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="homepage.html">
+                      <span class="glyphicon glyphicon-home" aria-hidden="true"></span><br class="hidden-xs"> Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="photo.html">
+                      <span class="glyphicon glyphicon-camera" aria-hidden="true"></span><br class="hidden-xs"> Photos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="video.html">
+                      <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span><br class="hidden-xs"> Videos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="event.html">
+                      <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span><br class="hidden-xs"> Events
+                    </a>
+                  </li>
+                  <li>
+                    <a href="program.html">
+                      <span class="glyphicon glyphicon-grain" aria-hidden="true"></span><br class="hidden-xs"> Programs
+                    </a>
+                  </li>
+                  <li>
+                    <a href="about.html">
+                      <span class="glyphicon glyphicon-tags" aria-hidden="true"></span><br class="hidden-xs"> About Us
+                    </a>
+                  </li>
+                  <li id="phone" class="hidden-xs">
+                    <a href="Tel: (401)-885-4900">
+                      <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><br class="hidden-xs"><div>Tel: (401)-885-4900</div>
+                    </a>
+                  </li>
+                  <li id="user" class="hidden-xs">
+                    <a href="tel:000-000-0000">
+                      <span class="glyphicon glyphicon-user" aria-hidden="true"></span><br class="hidden-xs"><button class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'">Login</button>
+                    </a>
+                  </li>
+                </div>
+
+                <!-- Button to open the modal login form -->
+
+
+                <!-- The Modal -->
+              <div id="id01" class="modal">
+                <span class="close" title="Close Modal">&times;</span>
+
+                <!-- Modal Content -->
+                <form class="modal-content animate" action="action_page.php">
+                  <div class="imgcontainer">
+                    <img src="../images/logo.jpg" alt="Avatar" class="avatar">
+                  </div>
+
+                  <div class="container">
+                    <label><b>Username: </b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+              <br>
+                    <label><b>Password: </b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+              <br>
+                  <div class="container" style="background-color:#008b8b width:100%">
+                    <button class="btn btn-primary" type="submit">Login</button>
+                  </div>
+              <br>
+                    <input type="checkbox" checked="checked"> Remember me
+                  </div>
+
+                  <div class="container" style="background-color:#008b8b width:60%">
+                    <button class="btn btn-primary" type="button" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <button id="navbartoggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+
+         </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="call-btn" class="container-fluid visible-xs">
+      <a class="btn" href="tel:(401)-885-4900">
+      <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>Tel: (401)-885-4900
+      </a>
+    </div>
+
+    <div class="container" id="jumbo">
+      <div class="jumbotron">
+        <div class="container" >
+          <img src="../images/homepage.jpg" class="img-responsive visible-xs"></img>
+          <h1>Free Trial Membership!</h1>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button"  onclick="document.getElementById('id02').style.display='block'">Sign Up for Today</a></p>
+        </div>
+      </div>
+
+      <div id="id02" class="modal">
+        <span class="close" title="Close Modal">&times;</span>
+
+        <!-- Modal Content -->
+        <form class="modal-content animate" action="action_page.php">
+          <div class="imgcontainer">
+            <img src="../images/logo.jpg" alt="Avatar" class="avatar">
+          </div>
+
+          <div class="container" ng-app="">
+            <input style="width:50%" ng-model="name" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
+            <p style="color:black">Your username is: {{name}}</p>
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1 width:60%">
+            <button class="btn btn-primary" type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="row" id="home-tiles">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <a href="photo.html">
+            <div id="photo-tile">
+              <span>Photos</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <a href="program.html">
+            <div id="program-tile">
+              <span>Programs</span>
+            </div>
+          </a>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <a href="https://www.google.com/maps/place/5955+Post+Rd,+North+Kingstown,+RI+02852/@41.633505,-71.4717537,17z/data=!3m1!4b1!4m5!3m4!1s0x89e5b366eedec7c9:0xae5c70a3bce0ec37!8m2!3d41.633501!4d-71.469565" target="_blank">
+            <div id="map-tile">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.028981525628!2d-71.47175368551237!3d41.63350498866594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5b366eedec7c9%3A0xae5c70a3bce0ec37!2s5955+Post+Rd%2C+North+Kingstown%2C+RI+02852!5e0!3m2!1sen!2sus!4v1478729218878" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <span>Maps</span><hr>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <footer class="panel-footer">
+        <div class="container">
+          <div class="row">
+            <section id="address" class="col-sm-4">
+              <span><b>Grand Master Hong's Taekwondo Center</span><br>
+              5955 Post Road<br>
+              North Kingstown<br>
+              RI 02852</b>
+              <hr class="visible-xs">
+            </section>
+            <section class="col-sm-4">
+              <p><b>Current time is: </b></p>
+              <iframe src="http://free.timeanddate.com/clock/i5hcaqtq/n43/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+            </section>
+            <section id="footer_right" class="col-sm-4">
+                <h3><b>Follow us </b></h3>
+                  <a href="https://www.facebook.com/GrandmasterHongsTaekwondo/">
+                    <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/fb.png">
+                  </a>
+                  <a href="https://twitter.com/ritkd">
+                    <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/twitter.png">
+                  </a>
+                  <a href="https://www.youtube.com/user/hongstkd">
+                    <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/youtube.png">
+                  </a>
+            </section>
+          </div>
+        </div>
+      </footer>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Grandmaster Hong’s Tae Kwon Do Center</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href= "homepage.html" class="pull-left visible-md visible-lg">
+              <div id="logo" alt="logo"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a id="nav-brand" href="homepage.html"><h1>Master Hong’s Class Tae Kwon Do Center</h1></a>
+              <div class="collapse navbar-collapse collapsable-nav" id="collapsable-nav">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="homepage.html">
+                      <span class="glyphicon glyphicon-home" aria-hidden="true"></span><br class="hidden-xs"> Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="photo.html">
+                      <span class="glyphicon glyphicon-camera" aria-hidden="true"></span><br class="hidden-xs"> Photos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="video.html">
+                      <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span><br class="hidden-xs"> Videos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="event.html">
+                      <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span><br class="hidden-xs"> Events
+                    </a>
+                  </li>
+                  <li>
+                    <a href="program.html">
+                      <span class="glyphicon glyphicon-grain" aria-hidden="true"></span><br class="hidden-xs"> Programs
+                    </a>
+                  </li>
+                  <li>
+                    <a href="about.html">
+                      <span class="glyphicon glyphicon-tags" aria-hidden="true"></span><br class="hidden-xs"> About Us
+                    </a>
+                  </li>
+                  <li id="phone" class="hidden-xs">
+                    <a href="Tel: (401)-885-4900">
+                      <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><br class="hidden-xs"><div>Tel: (401)-885-4900</div>
+                    </a>
+                  </li>
+                  <li id="user" class="hidden-xs">
+                    <a href="tel:000-000-0000">
+                      <span class="glyphicon glyphicon-user" aria-hidden="true"></span><br class="hidden-xs"><button class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'">Login</button>
+                    </a>
+                  </li>
+                </div>
+
+                <!-- Button to open the modal login form -->
+
+
+                <!-- The Modal -->
+              <div id="id01" class="modal">
+                <span class="close" title="Close Modal">&times;</span>
+
+                <!-- Modal Content -->
+                <form class="modal-content animate" action="action_page.php">
+                  <div class="imgcontainer">
+                    <img src="../images/logo.jpg" alt="Avatar" class="avatar">
+                  </div>
+
+                  <div class="container">
+                    <label><b>Username: </b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+              <br>
+                    <label><b>Password: </b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+              <br>
+                  <div class="container" style="background-color:#008b8b width:100%">
+                    <button class="btn btn-primary" type="submit">Login</button>
+                  </div>
+              <br>
+                    <input type="checkbox" checked="checked"> Remember me
+                  </div>
+
+                  <div class="container" style="background-color:#008b8b width:60%">
+                    <button class="btn btn-primary" type="button" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <button id="navbartoggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+
+         </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="grid_8" id="content_left">
+        <h1 style="color: black">Adult Self-Defense And Fitness</h1>
+        <p><span class="family" style="font-size: 24px; color: #ffc000;"><strong>Adult Self-Defense And Fitness</strong></span></p>
+        <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Our workout is perfect for anyone who has:</strong></span></p>
+        <p><span class="family" style="text-decoration: underline;">Joined and quit a health club</span></p>
+        <p><span class="family" style="text-decoration: underline;"> Tried to lose weight but is not interested in the gym scene</span></p>
+        <p><span class="family" style="text-decoration: underline;">  Become bored of traditional exercise (lifting weights, running)</span></p>
+        <p><span class="family" style="text-decoration: underline;">  Been looking for a new challenge</span></p>
+        <p style="color: #ADD8E6">The only way that any exercise program works is if you are able to stick with it. The reason most people drop their exercise routine, whether it's going to the gym or working out at home, is that they get bored. The monotony and repetition in traditional forms of exercise turns many people off after just a few months.</p>
+        <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Taekwondo classes are full of variety:</strong></span></p>
+        <p style="color: #ADD8E6">Students enjoy training Taekwondo for years, not months. Every class is a complete workout designed to improve your flexibility, balance, endurance and strength. With regular training you will lose weight, gain muscle tone and improve your athletic performance for other sports.</p>
+        <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Through Taekwondo you will:</strong></span></p>
+        <p> <span class="family" style="text-decoration: underline;">Improve your health</span></p>
+        <p><span class="family" style="text-decoration: underline;"> Reduce your stress</span></p>
+        <p><span class="family" style="text-decoration: underline;"> Increase your confidence</span></p>
+        <p><span class="family" style="text-decoration: underline;">  Learn a highly effective form of self defense</span></p>
+        <p><span class="family" style="text-decoration: underline;">  Positively affect every aspect of your life</span></p>
+        <p style="color: #ADD8E6">With cellular phones, faxes, and email you can probably be reached at anytime, anyplace. The result is more information, more to do, increased stress and decreased personal time. Martial artists enjoy the calm peace of mind that comes from controlling one's thoughts and actions. You can possess this same control and take charge of your stress. During your Taekwondo training, you will learn breathing and meditation techniques allowing you to slow down your frantic pace and gain a fresh perspective. Unlike traditional workouts that make you feel drained and exhausted, a Taekwondo workout will leave you feeling invigorated and energetic.</p>
+        <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Learn powerful self-defense techniques:
+        </strong></span></p>
+        <p style="color: #ADD8E6">As you practice Taekwondo you'll not only be improving your fitness level, but learning a highly effective form of self-defense as well. Taekwondo can provide you with the presence of mind, awareness, and physical readiness that will give you options in a confrontational situation. Criminals often seek out those who "look like a victim." Training in Taekwondo is also a preventive self-defense method. It will improve your physical condition, posture, eye contact, and awareness. By allowing you to carry yourself with an aura of strength and self-confidence, Taekwondo can help prevent a confrontation from ever happening.</p>
+        <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Our instructors make the difference:
+        </strong></span></p>
+        <p style="color: #ADD8E6">Our talented group of expert instructors will take the time to teach you in a step-by-step fashion and guide you with patience and enthusiasm. They will always be receptive to your questions and serve as success coaches on your way to achieving Black Belt excellence. Our staff are not the only positive people you will find at our school. The students are as well. You are sure to find that Taekwondo students are among the most friendly, cooperative, and motivated people you've ever met. The friendly atmosphere in our school is just one more reason why you'll want to attend classes regularly. We promise that Taekwondo will be one of the best decisions you ever make.c
+        </p>
+        <p class="family" style="text-align: center;"><span style="font-size: 18px; color: #0070c0;"><strong>How Will I Benefit from Martial Arts</strong></span></p>
+        <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Relaxation</span></p>
+        <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Balance</span></p>
+        <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Focus</span></p>
+        <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Speed</span></p>
+        <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Self-defense</span></p>
+        <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Flexibility</span></p>
+        <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Strength</span></p>
+        <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Stamina</span></p>
+        </div>
+
+    </body>
+
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="address" class="col-sm-4">
+            <span><b>Grand Master Hong's Taekwondo Center</span><br>
+            5955 Post Road<br>
+            North Kingstown<br>
+            RI 02852</b>
+            <hr class="visible-xs">
+          </section>
+          <section class="col-sm-4">
+            <p><b>Current time is: </b></p>
+            <iframe src="http://free.timeanddate.com/clock/i5hcaqtq/n43/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+          </section>
+          <section id="footer_right" class="col-sm-4">
+              <h3><b>Follow us </b></h3>
+                <a href="https://www.facebook.com/GrandmasterHongsTaekwondo/">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/fb.png">
+                </a>
+                <a href="https://twitter.com/ritkd">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/twitter.png">
+                </a>
+                <a href="https://www.youtube.com/user/hongstkd">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/youtube.png">
+                </a>
+          </section>
+        </div>
+      </div>
+    </footer>
+
+
+</body>
+
+</html>

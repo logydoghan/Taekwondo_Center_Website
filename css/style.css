@@ -1,0 +1,366 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #EBF4FA;
+  font-family: sans-serif;
+}
+
+#jumbo{
+  border-radius: none;
+  border: 0;
+  width: auto;
+}
+
+
+#header-nav{
+  background-color: #FFFFFF;
+  border-radius: 0;
+  border: 0;
+  height: 15em;
+}
+
+.navbar-brand h1 {
+  font-family: serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 30px;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left: 30px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#logo{
+  background: url("../images/logo.jpg") no-repeat;
+  width: 200px;
+  height: 150px;
+  margin: 50px 5px 10px 0;
+}
+
+#nav-brand{
+  margin-right: 20em;
+
+}
+
+#nav-list{
+  color: 000000;
+
+}
+
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #483C32;
+}
+
+#nav-list a span{
+  font-size: 1.3em;
+  margin-right: 0.5em;
+
+}
+
+#call-btn{
+  padding-left: 20px;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  font-size: 10px;
+}
+
+#phone a {
+  text-align: right;
+  padding-bottom: 0;
+}
+
+#photo-tile, #program-tile, #map-tile, #event1-tile, #event2-tile, #event3-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+#photo-tile:hover, #program-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #CCCCCC;
+}
+
+#photo-tile {
+  background: url('../images/photo5.jpg') no-repeat;
+  background-position: center;
+}
+
+#program-tile {
+  background: url('../images/photo4.jpg') no-repeat;
+  background-position: center;
+}
+
+#event1-tile {
+  background: url('../images/photo1.jpg') no-repeat;
+  background-position: center;
+}
+
+#event2-tile {
+  background: url('../images/photo2.jpg') no-repeat;
+  background-position: center;
+}
+
+#event3-tile {
+  background: url('../images/photo4.jpg') no-repeat;
+  background-position: center;
+}
+
+#photo-tile span, #program-tile span, #map-tile span, #event1-tile span, #event2-tile span, #event3-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .6;
+
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #000000;
+
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 90px;
+
+}
+
+.panel-footer{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top:0;
+}
+
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+
+#address, #social{
+  line-height: 2;
+}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#submit {
+    background-color: #4CAF50;
+    color: grey;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 59%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#photocontainer {
+  height: 50px;
+  text-align: center;
+}
+
+#phototext {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.video-wrapper {
+	width: 640px;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 100%;
+}
+
+#viewMorePhoto {
+  text-align: center;
+  position: relative;
+}
+
+.family{
+  color: black;
+}
+
+@media (min-width: 1200px){
+  .container .jumbotron{
+    background: url("../images/homepage.jpg") no-repeat;
+    height: 675px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  #logo{
+    background: url("../images/logo.jpg") no-repeat;
+    width: 50%;
+    height: 50%;
+    margin: 5px 10px 10px 0;
+  }
+
+  .container .jumbotron{
+    background: url("../images/homepage.jpg") no-repeat;
+    height: 558px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .container .jumbotron{
+    background: url("../images/homepage.jpg") no-repeat;
+    height: 558px;
+  }
+}
+
+@media (max-width: 767px){
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  /*#photo-tile, #program-tile{
+    width: 360px;
+    margin 0 auto 15px;
+  }*/
+
+
+
+
+
+
+}*/

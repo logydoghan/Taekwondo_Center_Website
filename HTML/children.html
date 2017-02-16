@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Grandmaster Hong’s Tae Kwon Do Center</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href= "homepage.html" class="pull-left visible-md visible-lg">
+              <div id="logo" alt="logo"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a id="nav-brand" href="homepage.html"><h1>Master Hong’s Class Tae Kwon Do Center</h1></a>
+              <div class="collapse navbar-collapse collapsable-nav" id="collapsable-nav">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="homepage.html">
+                      <span class="glyphicon glyphicon-home" aria-hidden="true"></span><br class="hidden-xs"> Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="photo.html">
+                      <span class="glyphicon glyphicon-camera" aria-hidden="true"></span><br class="hidden-xs"> Photos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="video.html">
+                      <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span><br class="hidden-xs"> Videos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="event.html">
+                      <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span><br class="hidden-xs"> Events
+                    </a>
+                  </li>
+                  <li>
+                    <a href="program.html">
+                      <span class="glyphicon glyphicon-grain" aria-hidden="true"></span><br class="hidden-xs"> Programs
+                    </a>
+                  </li>
+                  <li>
+                    <a href="about.html">
+                      <span class="glyphicon glyphicon-tags" aria-hidden="true"></span><br class="hidden-xs"> About Us
+                    </a>
+                  </li>
+                  <li id="phone" class="hidden-xs">
+                    <a href="Tel: (401)-885-4900">
+                      <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><br class="hidden-xs"><div>Tel: (401)-885-4900</div>
+                    </a>
+                  </li>
+                  <li id="user" class="hidden-xs">
+                    <a href="tel:000-000-0000">
+                      <span class="glyphicon glyphicon-user" aria-hidden="true"></span><br class="hidden-xs"><button class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'">Login</button>
+                    </a>
+                  </li>
+                </div>
+
+                <!-- Button to open the modal login form -->
+
+
+                <!-- The Modal -->
+              <div id="id01" class="modal">
+                <span class="close" title="Close Modal">&times;</span>
+
+                <!-- Modal Content -->
+                <form class="modal-content animate" action="action_page.php">
+                  <div class="imgcontainer">
+                    <img src="../images/logo.jpg" alt="Avatar" class="avatar">
+                  </div>
+
+                  <div class="container">
+                    <label><b>Username: </b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+              <br>
+                    <label><b>Password: </b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+              <br>
+                  <div class="container" style="background-color:#008b8b width:100%">
+                    <button class="btn btn-primary" type="submit">Login</button>
+                  </div>
+              <br>
+                    <input type="checkbox" checked="checked"> Remember me
+                  </div>
+
+                  <div class="container" style="background-color:#008b8b width:60%">
+                    <button class="btn btn-primary" type="button" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <button id="navbartoggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+
+         </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="content_left" class="grid_8">
+            <h1 style="color: black">Children's Programs</h1>
+            <p><span class="family" style="font-size: 32px; color: #ffc000;"><strong>Children Martial Arts</strong></span></p>
+            <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>At what age can children start?</strong></span></p>
+            <p style="color: #ADD8E6">Our experience has shown that children ages four and up will be able to take the greatest advantage from Tae Kwon Do classes. Starting at age four, your child can participate in our trial lesson program, which allows our instructors to work with them one on one and evaluate their readiness for group classes. Our staff will then use their experience to recommend the best course of action for you and your child.</p>
+            <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Your child will:</strong></span></p>
+            <p style="color: #ADD8E6">  <span class="family" style="text-decoration: underline;">Become more fit, energetic, and active</span></p>
+            <p><span class="family" style="text-decoration: underline;"> Learn the importance of treating others with respect</span></p>
+            <p><span class="family" style="text-decoration: underline;">  Learn the value of self-control and the power of cooperation</span></p>
+            <p><span class="family" style="text-decoration: underline;"> Gain the ability to set and achieve goals</span></p>
+            <p><span class="family" style="text-decoration: underline;"> Learn to persevere and not give up when faced with challenges</span></p>
+            <p style="color: #ADD8E6">As a student of Taekwondo, your child will experience more than just self-defense. They will experience self-improvement. Virtually every area of their life can be affected in a positive way through Taekwondo training. Taekwondo will improve your child’s fitness, increase their self-esteem, and sharpen their focus in such a powerful way that it will benefit them throughout their life.</p>
+            <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Taekwondo is great for physical fitness:</strong></span></p>
+            <p style="color: #ADD8E6">Students enjoy training Taekwondo for years, not months. Every class is a complete workout designed to improve your flexibility, balance, endurance and strength. With regular training you will lose weight, gain muscle tone and improve your athletic performance for other sports.</p>
+            <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Taekwondo is perfect for:</strong></span></p>
+            <p style="color: #ADD8E6">  <span class="family" style="text-decoration: underline;">Helping young children to develop coordination and balance</span></p>
+            <p><span class="family" style="text-decoration: underline;">  Motivating sedentary children to participate in exercise</span></p>
+            <p><span class="family" style="text-decoration: underline;">  Enhancing the strength of children with physical challenges</span></p>
+            <p><span class="family" style="text-decoration: underline;"> Providing athletic children a way to become even more fit</span></p>
+            <p style="color: #ADD8E6">Our enthusiastic instructors and high-energy classroom make getting in shape fun and rewarding. Your child will look forward to coming to class and will want to attend regularly.</p>
+            <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Children improve listening skills, concentration, and grades</strong></span></p>
+            <p>Teachers and parents alike often notice a dramatic difference in children who study the martial arts. Teaching kids to stay focused is one of our specialties and the results are noticeable. Children listen better at home, handle homework and chores more efficiently, put more focus and effort into schoolwork, and receive better grades.</p>
+            <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Does Taekwondo increase aggressiveness?</strong></span></p>
+            <p style="color: #ADD8E6">Absolutely not. Your child will be taught from the first lesson that true "Tae Kwon Do kids" never misuse their martial arts skills. Throughout their training, they will be reminded that being physically and mentally tough does not allow one to be tough with others. Instead, Tae Kwon Do students are expected to be humble, courteous, respectful and careful about when and where they practice their skills. The instructors at Master Chong's will continually educate your child that Tae Kwon Do is a form of exercise and self improvement, not a tool for bullying.</p>
+            <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>The focus gained at Taekwondo will:</strong></span></p>
+            <p><span class="family" style="text-decoration: underline;">Help hyper-active kids to settle down</span></p>
+            <p><span class="family" style="text-decoration: underline;"> Give children with Attention Deficit Disorder better concentration skills</span></p>
+            <p><span class="family" style="text-decoration: underline;">  Enable students to improve their memory and study habits</span></p>
+            <p><span class="family" style="text-decoration: underline;">Boost Self-Esteem and Confidence</span></p>
+            <p style="color: #ADD8E6">Taekwondo will provide your child the challenges and the tools to overcome them. Using praise and positive feedback, our instructors encourage students and motivate effort. Our belt system gives students mini-goals to strive for and teaches kids the power of goal-setting.</p>
+            <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>The self-confidence gained in Taekwondo will enable your child to:</strong></span></p>
+            <p><span class="family" style="text-decoration: underline;">Overcome shyness</span></p>
+            <p><span class="family" style="text-decoration: underline;">Resist negative peer pressure</span></p>
+            <p><span class="family" style="text-decoration: underline;">Stand up to bullies and speak up for themselves</span></p>
+            <p><span class="family" style="text-decoration: underline;"> Raise their hand in school and volunteer their opinion</span></p>
+            <p><span class="family" style="text-decoration: underline;">Be more comfortable with meeting new people</span></p>
+            <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>How safe is it to learn?</strong></span></p>
+            <p style="color: #ADD8E6">Tae Kwon Do is safe and fun for students of all ages and physical abilities. Classes are taught by expert instructors as students are shown techniques in a step-by-step manner at their own pace. A thorough stretching routine, matted flooring, and protective safety equipment are all part of our commitment to ensuring student safety.</p>
+            <p><span class="family" style="font-size: 18px; color: #0070c0;"><strong>Our instructors make the difference:</strong></span></p>
+            <p style="color: #ADD8E6">Our instructors are experts at working with children. They know how to gain your child’s attention and keep them motivated by setting realistic step-by-step goals and encouraging them every step of the way. Every member of our staff will take a personal interest in your child and be committed to helping them achieve their potential. We also take it as a priority to serve as good role models. You can be assured that we will demonstrate the respect and character that we would like our students to embody. Our staff are patient, enthusiastic, and teach with a smile! We love what we do and are sure that you and your family will feel that in the classroom.</p>
+            <p class="family" style="text-align: center;"><span style="font-size: 18px; color: #0070c0;"><strong>How Will I Benefit from Martial Arts</strong></span></p>
+            <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Relaxation</span></p>
+            <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Balance</span></p>
+            <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Focus</span></p>
+            <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Speed</span></p>
+            <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Self-defense</span></p>
+            <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Flexibility</span></p>
+            <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Strength</span></p>
+            <p class="family" style="text-align: center;"><span style="text-decoration: underline;">Stamina</span></p>
+            </div>
+
+
+    </body>
+
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="address" class="col-sm-4">
+            <span><b>Grand Master Hong's Taekwondo Center</span><br>
+            5955 Post Road<br>
+            North Kingstown<br>
+            RI 02852</b>
+            <hr class="visible-xs">
+          </section>
+          <section class="col-sm-4">
+            <p><b>Current time is: </b></p>
+            <iframe src="http://free.timeanddate.com/clock/i5hcaqtq/n43/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+          </section>
+          <section id="footer_right" class="col-sm-4">
+              <h3><b>Follow us </b></h3>
+                <a href="https://www.facebook.com/GrandmasterHongsTaekwondo/">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/fb.png">
+                </a>
+                <a href="https://twitter.com/ritkd">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/twitter.png">
+                </a>
+                <a href="https://www.youtube.com/user/hongstkd">
+                  <img alt="" src="https://pmcontent.blob.core.windows.net/website/images/youtube.png">
+                </a>
+          </section>
+        </div>
+      </div>
+    </footer>
+
+
+</body>
+
+</html>
